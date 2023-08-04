@@ -10,6 +10,7 @@
     "test": "plasmo test"
   },
   "dependencies": {
+    "pinyin": "^3.0.0-alpha.5",
     "plasmo": "0.82.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -24,6 +25,10 @@
     "typescript": "5.1.6"
   },
   "manifest": {
+    "permissions": [
+      "tabs",
+      "tabGroups"
+    ],
     "host_permissions": [
       "https://*/*"
     ]
