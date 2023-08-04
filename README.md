@@ -1,33 +1,28 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+## Tabber: Effortlessly Manage Chrome Tabs
 
-## Getting Started
+**Tabber** is an intelligent Chrome browser extension designed to help you efficiently manage and filter your browser tabs. Whether you're a professional or a casual user, Tabber enables you to keep your browsing sessions organized, allowing you to focus on content rather than tab clutter.
 
-First, run the development server:
+### Key Features:
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+1. **Smart Tab Groups:** Tabber intelligently organizes your tabs into groups, enhancing your browsing experience with clarity and organization. Each tab group can be easily named for quick identification and switching.
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+2. **Real-time Filtering:** With Tabber's powerful real-time search feature, you can swiftly locate and filter specific tab groups and tabs. Simply type keywords to instantly pinpoint the desired content.
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
+3. **Keyboard Shortcuts:** Tabber supports a variety of keyboard shortcuts, enabling you to perform actions at lightning speed. Utilize arrow keys, Tab key, and specific key combinations to seamlessly switch between tabs, boosting your workflow efficiency.
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+4. **Memory Function:** Tabber intelligently remembers your last selected tab, ensuring you can quickly resume your work processes without the need to search for tabs again.
 
-## Making production build
+### How to Use:
 
-Run the following:
+1. Install the Tabber extension in your Chrome browser.
 
-```bash
-pnpm build
-# or
-npm run build
-```
+2. Open Tabber, and you'll find an intelligent search box.
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+3. Enter keywords, and Tabber will dynamically display matching tab groups and tabs.
 
-## Submit to the webstores
+4. Utilize keyboard shortcuts to effortlessly switch tabs, open selected tabs, and enhance your browsing efficiency.
 
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+5. Tabber automatically remembers your selections, so you'll pick up where you left off the next time you use it.
+
+Tabber streamlines tab management, allowing you to concentrate on browsing content and enhancing your browsing experience for more productive work and learning.
+

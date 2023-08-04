@@ -5,6 +5,7 @@ export interface Tab {
   title: string
   pinyinizedTitle: string
   url?: string | undefined
+  active: boolean
 }
 
 export interface TabGroup {
@@ -18,12 +19,12 @@ export interface TabGroup {
 const pinyinize = (text: string) => pinyin(text, {style: "normal"}).flat().join("")
 
 function mapTab(tab: chrome.tabs.Tab): Tab {
-  const {id, title, url} = tab
+  const {id, title, url, active} = tab
   return {
     id,
     title: title,
     pinyinizedTitle: pinyinize(title),
-    url
+    url, active
   }
 }
 
